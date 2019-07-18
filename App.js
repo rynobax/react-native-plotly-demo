@@ -11,27 +11,8 @@ export default function App() {
   const layout = { title: 'My cool chart!' };
 
   return (
-    <View style={styles.container}>
-      <Text>Plot is below here!</Text>
-      <View style={styles.view}>
-        <Plotly data={data} layout={layout} />
-      </View>
-      <Text>Plot is above here!</Text>
+    <View style={{ flex: 1 }}>
+      <Plotly data={data} layout={layout} />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  view: {
-    flex: 1,
-    backgroundColor: 'red',
-    height: 300,
-    width: 300
-  }
-});
