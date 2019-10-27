@@ -12,8 +12,9 @@
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-plotly": "^1.0.0-0",
-    "react-native-web": "^0.11.7"
+    "react-native-plotly": "^2.0.0-0",
+    "react-native-web": "^0.11.7",
+    "react-native-webview": "7.0.5"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.0.0"
