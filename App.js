@@ -3,11 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import Plotly from 'react-native-plotly';
 
 export default function App() {
-  const data = {
+  const data = [{
     x: [1, 2, 3, 4, 5],
     y: [1, 2, 3, 4, 8],
-    type: 'scatter'
-  };
+  }];
   const layout = { title: 'My cool chart!' };
 
   return (
