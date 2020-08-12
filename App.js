@@ -1,32 +1,42 @@
-import React from 'react';
-import { StyleSheet, View, Button } from 'react-native';
-import Plotly from 'react-native-plotly';
+import React from "react";
+import { StyleSheet, View, Button } from "react-native";
+import Plotly from "react-native-plotly";
 
-const upData = {
-  __id: 'up',
-  x: [1, 2, 3, 4, 5],
-  y: [1, 2, 3, 4, 8],
-  type: 'scatter'
-};
+const upData = [
+  {
+    __id: "up",
+    x: [1, 2, 3, 4, 5],
+    y: [1, 2, 3, 4, 8],
+    type: "scatter"
+  }
+];
 
-const downData = {
-  __id: 'down',
-  x: [1, 2, 3, 4, 5],
-  y: [8, 4, 3, 2, 1],
-  type: 'scatter'
-};
+const downData = [
+  {
+    __id: "down",
+    x: [1, 2, 3, 4, 5],
+    y: [8, 4, 3, 2, 1],
+    type: "scatter"
+  },
+  {
+    __id: "down2",
+    x: [8, 4, 3, 2, 1],
+    y: [1, 2, 3, 4, 5],
+    type: "scatter"
+  }
+];
 
 export default class App extends React.Component {
   state = {
-    data: [upData],
-    layout: { title: 'Plotly.js running in React Native!' }
+    data: upData,
+    layout: { title: "Plotly.js running in React Native!" }
   };
 
   swapData = () => {
-    if (this.state.data[0].__id === 'up') {
-      this.setState({ data: [downData] });
+    if (this.state.data[0].__id === "up") {
+      this.setState({ data: downData });
     } else {
-      this.setState({ data: [upData] });
+      this.setState({ data: upData });
     }
   };
 
@@ -45,7 +55,7 @@ export default class App extends React.Component {
             data={this.state.data}
             layout={this.state.layout}
             update={this.update}
-            onLoad={() => console.log('loaded')}
+            onLoad={() => console.log("loaded")}
             debug
           />
         </View>
@@ -56,18 +66,18 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   buttonRow: {
-    flexDirection: 'row'
+    flexDirection: "row"
   },
   chartRow: {
     flex: 1,
-    width: '100%'
+    width: "100%"
   },
   container: {
     paddingTop: 30,
-    width: '100%',
-    height: '100%',
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
+    width: "100%",
+    height: "100%",
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
   }
 });

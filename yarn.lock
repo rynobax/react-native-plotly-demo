@@ -1743,11 +1743,6 @@ deep-assign@^3.0.0:
   dependencies:
     is-obj "^1.0.0"
 
-deep-diff@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-1.0.2.tgz#afd3d1f749115be965e89c63edc7abb1506b9c26"
-  integrity sha512-aWS3UIVH+NPGCD1kki+DCU9Dua032iSsO43LqQpcs4R3+dVv7tX0qBGjiVHJHjplsoUM2XRO/KB92glqc68awg==
-
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
@@ -3008,11 +3003,6 @@ lodash.padstart@^4.1.0:
   resolved "https://registry.yarnpkg.com/lodash.padstart/-/lodash.padstart-4.6.1.tgz#d2e3eebff0d9d39ad50f5cbd1b52a7bce6bb611b"
   integrity sha1-0uPuv/DZ05rVD1y9G1KnvOa7YRs=
 
-lodash.set@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
-  integrity sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=
-
 lodash.throttle@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
@@ -4193,13 +4183,10 @@ react-native-branch@~3.0.1:
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-3.0.1.tgz#5b07b61cbd290168cd3c3662e017ebe0f356d2ca"
   integrity sha512-vbcYxPZlpF5f39GAEUF8kuGQqCNeD3E6zEdvtOq8oCGZunHXlWlKgAS6dgBKCvsHvXgHuMtpvs39VgOp8DaKig==
 
-react-native-plotly@^2.0.0-0:
-  version "2.0.0-0"
-  resolved "https://registry.yarnpkg.com/react-native-plotly/-/react-native-plotly-2.0.0-0.tgz#2948ee0953ffa0fdc844430fad09590057937841"
-  integrity sha512-aXF82sQPLlzEuRALz+wtfq/h4pCz4Bx2TdpkyKD5KfHbk3KSdMTmYI9D0qu7YIVwv86P57EwoAHpo9+H+lxCdA==
-  dependencies:
-    deep-diff "^1.0.2"
-    lodash.set "^4.3.2"
+react-native-plotly@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-plotly/-/react-native-plotly-4.0.0.tgz#57050a6eb379375526a465da6f55cd99ef9a18d4"
+  integrity sha512-P0FdQ1JwqhxhbRAh36eBas5e8qpPfKOWpsG99ekePXBrkPSvm5i9UcRopKW5AkFifs0GstDOJsOxfKpsVj4Whw==
 
 react-native-view-shot@2.6.0:
   version "2.6.0"
