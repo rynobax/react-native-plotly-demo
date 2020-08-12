@@ -3,7 +3,6 @@
     "name": "react-native-plotly-demo",
     "slug": "react-native-plotly-demo",
     "privacy": "public",
-    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android",
