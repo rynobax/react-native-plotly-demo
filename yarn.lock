@@ -5242,15 +5242,10 @@ lodash.throttle@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
-lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
-
-lodash@^4.17.19:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
+lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.3.0:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -6237,10 +6232,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-plotly@4.0.1-0:
-  version "4.0.1-0"
-  resolved "https://registry.yarnpkg.com/react-native-plotly/-/react-native-plotly-4.0.1-0.tgz#dd267fccbba7593a4a8bb0fae5cb05f9eda90153"
-  integrity sha512-zJ2HiGH/qLLENG39KJISx+UWktuE7U459a3H5mwZ+LuTYYeyE3cI0Jc4zkIN1WwRxC/aZdhFBh3KjptSw3/AeQ==
+react-native-plotly@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-plotly/-/react-native-plotly-5.0.0.tgz#a404fc9ada4cfb5a38510b687aabaa7ed311e225"
+  integrity sha512-1u36BpcJegc/9qxXU8CIJ8uS8oq4zw6yf+U8SrXPHMIFNxmRZeb/+ZsbfWIncz2vt2HtwQVclMwhq0QcBXfDeg==
 
 react-native-safe-area-context@3.2.0:
   version "3.2.0"
