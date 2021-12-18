@@ -8,16 +8,16 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^41.0.0",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react-native-plotly": "5.0.0",
-    "react-native-web": "~0.13.12",
-    "react-native-webview": "11.2.3"
+    "expo": "^44.0.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-plotly": "6.0.0-0",
+    "react-native-web": "0.17.1",
+    "react-native-webview": "11.15.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "8.3.0"
+    "babel-preset-expo": "9.0.1"
   },
   "private": true
 }
